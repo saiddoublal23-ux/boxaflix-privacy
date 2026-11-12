@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - BoxaFlix</title>
+    <style>
+        :root {
+            --bg-color: #0b0c0f;
+            --surface-color: #16181f;
+            --accent-red: #e50914;
+            --text-primary: #ffffff;
+            --text-secondary: #9e9ea7;
+            --border-color: #272a34;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--surface-color);
+            padding: 40px;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 30px;
+        }
+        .logo-box {
+            width: 50px;
+            height: 50px;
+            background: #000;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 24px;
+            color: var(--accent-red);
+            border: 1px solid var(--border-color);
+        }
+        h1 {
+            font-size: 26px;
+            font-weight: 700;
+            color: #fff;
+        }
+        .effective-date {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-top: 4px;
+        }
+        h2 {
+            font-size: 18px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        p, li {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .badge {
+            background-color: rgba(229, 9, 20, 0.15);
+            color: var(--accent-red);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+        .highlight-box {
+            background-color: rgba(255, 255, 255, 0.03);
+            border-left: 3px solid var(--accent-red);
+            padding: 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+        a {
+            color: var(--accent-red);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-box">B</div>
+            <div>
+                <h1>BoxaFlix Privacy Policy</h1>
+                <div class="effective-date">Effective Date: November 2026 | Last Updated: November 2026</div>
+            </div>
+        </div>
+
+        <div class="badge">Google Play Developer Policy Compliant</div>
+
+        <p>Welcome to <strong>BoxaFlix</strong> ("we", "our", or "the App"). We are committed to protecting your privacy and ensuring transparency regarding any data collected or processed when you use our cinema discovery mobile application.</p>
+
+        <div class="highlight-box">
+            <strong>Key Summary:</strong> BoxaFlix is a media tracking and discovery guide. We do not require account creation, we do not collect personal identities, passwords, or payment cards, and your local watchlists remain stored securely on your device.
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        <p>BoxaFlix does not require user registration or an account to use the application. We do not collect, transmit, or store personally identifiable information (PII) such as your real name, physical address, email address, phone number, or payment card details on our servers.</p>
+
+        <h2>2. Data Stored Locally on Your Device</h2>
+        <ul>
+            <li><strong>Watchlist & Diary:</strong> Your saved movies, TV shows, custom collections, and personal movie notes are stored locally using Android Jetpack Room / SharedPreferences.</li>
+            <li><strong>App Preferences:</strong> Selected UI theme modes and reminder schedules are stored strictly locally on your device.</li>
+            <li><strong>Export/Backup:</strong> You can export your watchlist JSON locally at any time. We never upload your backup data to external clouds.</li>
+        </ul>
+
+        <h2>3. Third-Party Services & Analytics</h2>
+        <p>BoxaFlix integrates with trusted third-party services to deliver cinema content and sustain the application:</p>
+        <ul>
+            <li><strong>The Movie Database (TMDB) API:</strong> We fetch publicly available movie metadata, posters, trailers, release dates, and cast details from TMDB. BoxaFlix uses the TMDB API but is not certified or endorsed by TMDB.</li>
+            <li><strong>Google AdMob:</strong> To keep BoxaFlix free, we display mobile ads provided by Google AdMob. AdMob may automatically collect non-personally identifiable technical information (e.g., Advertising ID, device hardware model, IP address, OS version) to serve relevant advertisements. You can manage personalized ad preferences via Android system settings.</li>
+            <li><strong>YouTube Android Player / Web Intents:</strong> Official movie trailers are loaded directly via YouTube API embeds or external player intents. Use of YouTube services is subject to the YouTube Terms of Service and Google Privacy Policy.</li>
+        </ul>
+
+        <h2>4. Permissions Used</h2>
+        <ul>
+            <li><code>INTERNET</code> & <code>ACCESS_NETWORK_STATE</code>: Required to fetch movie data, posters, and display video trailers.</li>
+            <li><code>VIBRATE</code>: Provides tactile feedback for interactive UI buttons and cinema roulette spins.</li>
+        </ul>
+
+        <h2>5. Children's Privacy</h2>
+        <p>BoxaFlix is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+
+        <h2>6. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. Any updates will be posted on this page with an updated effective date.</p>
+
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy or BoxaFlix, please contact us at:</p>
+        <p>📧 <strong>Email:</strong> saiddoublal23@gmail.com</p>
+
+        <div class="footer">
+            &copy; 2026 BoxaFlix. All rights reserved. Built with ❤️ for Cinephiles worldwide.
+        </div>
+    </div>
+</body>
+</html>
